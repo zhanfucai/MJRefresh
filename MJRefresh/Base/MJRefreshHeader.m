@@ -22,6 +22,7 @@ NSString * const MJRefreshHeaderRefreshingBoundsKey = @"MJRefreshHeaderRefreshin
 #pragma mark - 构造方法
 + (instancetype)headerWithRefreshingBlock:(MJRefreshComponentAction)refreshingBlock
 {
+    NSLog(@"zfc测试");
     MJRefreshHeader *cmp = [[self alloc] init];
     cmp.refreshingBlock = refreshingBlock;
     return cmp;
